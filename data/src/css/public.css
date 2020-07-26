@@ -1,0 +1,155 @@
+.icon {
+  width: 1em; height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+li{list-style: none}
+i{    font-style: normal;}
+.bgfff{bg:#fff;}
+.clear{zoom:1;}
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;}
+a{td:none}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+header,
+nav,
+section,
+article,
+aside,
+footer,
+figure,
+figcaption,
+menu,
+button {
+  margin: 0;
+  padding: 0;
+}
+html {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+}
+$main-color:#ff9800de;
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+ font-family: "Helvetica Neue", "Microsoft Yahei", sans-serif;
+  w:100vw;bg:rgb(246, 246, 246);overflow: hidden;
+}
+* {
+  box-sizing: inherit;
+
+&:before,
+&:after {
+   box-sizing: inherit;
+ }
+}
+img{content: normal!important;width: 100%;
+h:100%;
+  vertical-align: top;}
+[auto]{m:0 auto;}
+[aspectratio]{
+  position: relative;
+}
+[aspectratio]::before{
+  content:'';display: block;width: 1px;margin-left: -1px;height: 0;
+}
+[aspectratio-content]{
+  position: absolute;top:0;left: 0;
+  right: 0;bottom: 0;width: 100%;height: 100%;
+}
+[flexcont]{display: flex;}
+[flexcont2]{justify-content: center;align-items: center;}
+[flexcont3]{align-items: center;}
+.size-100vw{
+  w:1366px;
+}
+[relative]{position: relative;}
+[absolute]{position: absolute;}
+.yuan{size:100px!important;}
+[mt20]{
+  mt:15px;
+}
+.npart-bga{l:0;t:0;size:100%;}
+.boxbor{position: relative;bg:#1d34487d;
+p{fz:16px;c:#fff;font-weight: 500;m:0 auto;h:4vh;lh:4vh;bg:rgba(42, 92, 136, 0.53);pl:14px;display: flex;align-items: center;}
+}
+
+
+.icon{size: 24px;}
+
+.npart-bga:before,
+.npart-bga:after {
+  content: "";
+  position: absolute;
+  width: 26px;
+  height: 36px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 2px;
+}
+.npart-bga:before {
+  bottom: 0;
+  left: 0;
+  border-color: transparent transparent #7aadfc #7aadfc;
+
+}
+.npart-bga:after {
+  bottom: 0;
+  right: 0;
+  border-color: transparent #7aadfc #7aadfc transparent;
+}
+[height40]{h:40vh;}
+.name-tit{text-align: right;fz:.8vw;c:#9ab6c9;w:90%;}
+.top-box{
+  w:100%;justify-content: space-around;
+dl{h:13.5vh;overflow: hidden;fz:12px;color: #95d3e1;dd{h:3.4vh;lh:3.4vh;}w:80%;m:0 auto;}
+.lef-top{size:390px 100%;}
+.lef-top2{size:440px 100%; }
+.left{w:54vw;}
+.right{width:40vw;}
+.period-box,.stock-box{
+  dl{w:95%;}
+
+}
+.period-box{
+  w:45%;bdr:2px dashed #a5c0d4;
+
+}
+.stock-box{w:55%;}
+}
+.space-content dd{display: flex;justify-content: space-between;}
+.boxbor dl dd i{fz:14px;c:#fff;pr:2px;font-weight: bold;}
+.bet{
+  dl{justify-content: space-between;flex-wrap: wrap;w:100%;}
+  dl dd{display: flex;flex-direction: column;align-items: center;w:50%;i{fz:16px;}}
+}

@@ -1,0 +1,3 @@
+export const RECORD_USERINFO='RECORD_USERINFO';
+export const GET_USERCODE='GET_USERCODE';
+export const SET_DRUG_LIST='SET_DRUG_LIST';
