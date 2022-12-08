@@ -23,7 +23,7 @@
     "postcss-viewport-units": "^0.1.6",
     "postcss-write-svg": "^3.0.1",
     "precss": "^4.0.0",
-    "qs": "^6.7.0",
+    "qs": "^6.7.3",
     "v-charts": "^1.19.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
